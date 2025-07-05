@@ -6,7 +6,7 @@ const dns = require('dns');
 const app = express();
 
 // Basic Configuration
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 3000;
 
 // In-memory URL storage
 let urlDatabase = [];
